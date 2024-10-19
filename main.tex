@@ -1,0 +1,121 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{float}
+
+\geometry{left=1in,right=1in,top=1in,bottom=1in}
+
+\title{Lab Assignment: \textit{MA660E Quantitative Data Analysis}}
+\author{Dr. Yuanji Cheng \\ Martin Svensson}
+\date{\today}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{MA660E - Quantitative Data Analysis}
+\fancyhead[R]{\thepage}
+
+\begin{document}
+
+\maketitle
+
+\section*{Part One}
+In this part, you will work with job survey data from the book \textit{Quantitative Data Analysis with SPSS}. The dataset is available as either an SPSS file (\texttt{jss13\_ht22.sav}) or an Excel file (\texttt{Data\_source.xlsx}).
+
+The variables used are as follows:
+\begin{itemize}
+    \item \textbf{ethnicgp} (ethnic group): 1 = White, 2 = Asian, 3 = West Indian, 4 = African, 5 = Other
+    \item \textbf{gender}: 1 = Male, 2 = Female
+    \item \textbf{income}: Gross annual income before tax (in £1000)
+    \item \textbf{age}: Age in years
+    \item \textbf{years}: Number of years working at this company
+    \item \textbf{commit}: Organizational commitment (scale 1 to 5)
+    \item \textbf{satis}: Job satisfaction
+    \item \textbf{autonom}: Job autonomy
+    \item \textbf{routine}: Job routine
+    \item \textbf{attend}: Attendance at meetings (1 = Yes, 2 = No)
+    \item \textbf{skill}: Skill level (1 = Unskilled, 4 = Highly skilled)
+    \item \textbf{prody}: Productivity rating (1 = Very poor, 5 = Very good)
+    \item \textbf{qual}: Quality rating (1 = Very poor, 5 = Very good)
+    \item \textbf{absence}: Number of days absent in the last 12 months
+\end{itemize}
+
+You can use any software for calculations (MATLAB, Python, Excel, SPSS, R, etc.).
+
+\subsection*{Exercise 1.1}
+\begin{enumerate}
+    \item[a)] Create a bar chart for gender and a pie chart for ethnic group.
+    \item[b)] Summarize the \textbf{age} data using the five-number summary: minimum, maximum, median, 1st quartile, and 3rd quartile, then generate a box plot.
+    \item[c)] Compute the mean and standard deviation of \textbf{income} and create a histogram of it.
+\end{enumerate}
+
+\subsection*{Exercise 1.2}
+\begin{enumerate}
+    \item[a)] Create a scatter plot to visualize the relationship between \textbf{income} and \textbf{absence}.
+    \item[b)] Build a simple linear regression model with \textbf{income} as the dependent variable and \textbf{absence} as the independent variable. Report the determination coefficient ($R^2$).
+\end{enumerate}
+
+\subsection*{Exercise 1.3}
+Study a multiple regression model where \textbf{satis} (job satisfaction) is the dependent variable, and the following are independent variables: \textbf{commit}, \textbf{autonom}, \textbf{income}, \textbf{skill}, \textbf{qual}, \textbf{age}, and \textbf{years}.
+\begin{enumerate}
+    \item[a)] Identify which variables do not have a significant impact on \textbf{satis}.
+    \item[b)] Simplify the regression model by removing non-significant variables.
+\end{enumerate}
+
+\subsection*{Exercise 1.4}
+Find the confidence interval for \textbf{job satisfaction}, and the confidence interval for the difference in \textbf{job satisfaction} between men and women.
+
+\subsection*{Exercise 1.5}
+Use the Mann-Whitney-Wilcoxon test to check if there is a significant difference in \textbf{skill} levels between men and women. Compare the result with the confidence interval for the difference.
+
+\subsection*{Exercise 1.6}
+Use the Kruskal-Wallis test to determine if there is a significant difference in \textbf{absence} among different ethnic groups. Compare this with the results from a One-Way ANOVA.
+
+\subsection*{Exercise 1.7}
+Recode the \textbf{income} variable into an \textbf{income class} using the following class limits: 
+\begin{itemize}
+    \item Low income class: [Min, Q1]
+    \item Middle income class: (Q1, Q3]
+    \item High income class: (Q3, Max]
+\end{itemize}
+Investigate if there is a significant relationship between \textbf{income class} and \textbf{skill}.
+
+\newpage
+
+\section*{Part Two}
+For this part, you will work with your own dataset. You have the freedom to choose the topic and the variables for analysis.
+
+\subsection*{Exercise 2.1}
+Perform a descriptive statistics analysis on at least two qualitative and two quantitative variables.
+
+\subsection*{Exercise 2.2}
+Compute the confidence interval for one quantitative variable, and for the difference between two groups.
+
+\subsection*{Exercise 2.3}
+Perform a T-test to check if there is a significant difference between two groups, or conduct an ANOVA to see if all groups have the same mean value for a specific characteristic.
+
+\subsection*{Exercise 2.4}
+Conduct a non-parametric test for the same variable as in Exercise 2.3 and compare the conclusions with those from the ANOVA.
+
+\subsection*{Exercise 2.5}
+Carry out a correlation analysis. Identify the strongest correlations and any statistically insignificant relationships.
+
+\subsection*{Exercise 2.6}
+Perform a multiple linear regression analysis.
+
+\section*{Optional: COVID-19 Analysis}
+If you're interested in COVID-19 data, you can obtain relevant datasets from the following sources:
+\begin{itemize}
+    \item \href{https://covid19.who.int/}{World Health Organization (WHO)}
+    \item \href{https://coronavirus.jhu.edu/}{Johns Hopkins University Coronavirus Resource Center}
+\end{itemize}
+
+\section*{Lab Report Guidelines}
+You may work individually or in teams of up to two students. Your lab report must include both tables/figures and written interpretations for each question. Submitting only tables or figures without explanation will be considered incomplete.
+
+\noindent\textbf{Deadline:} Submit the lab report via Canvas by \textbf{Sunday, October 27, 2024}.
+
+\end{document}
