@@ -81,6 +81,9 @@ If you are interested in working with COVID-19 data, you can find datasets from 
 - The **deadline** for submission is **Sunday, October 27, 2024**, via Canvas.
 
 ---
+# Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/ff2e4e6918afff1acf9deb72d1ba6b071d586178.svg "Repobeats analytics image")
 
 ### Authors
 - Dr. Yuanji Cheng
