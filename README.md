@@ -83,7 +83,7 @@ If you are interested in working with COVID-19 data, you can find datasets from 
 ---
 # Activity
 
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/ff2e4e6918afff1acf9deb72d1ba6b071d586178.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/0de61f3dc3f858e0fcca2a7cd2157107207d46a7.svg "Repobeats analytics image")
 
 ### Authors
 - Dr. Yuanji Cheng
