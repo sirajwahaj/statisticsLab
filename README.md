@@ -1,6 +1,6 @@
 # Job Survey Data Analysis
 
-This repository contains lab assignments for **MA660E: Quantitative Data Analysis**, focusing on analyzing job survey data using various software tools such as MATLAB, Python, Excel, SPSS, or R.
+This repository contains lab assignments for **MA660E: Quantitative Data Analysis**, focusing on analyzing job survey data using Python.
 
 ## Dataset Information
 The data used is sourced from the book *Quantitative Data Analysis with SPSS*. The dataset includes the following variables:
